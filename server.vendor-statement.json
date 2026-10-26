@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theluckystrike/vendor-statement-open-items",
+  "description": "Compare supplied vendor statement and AP open items locally; keep missing and ambiguous evidence.",
+  "version": "0.25.0",
+  "repository": {
+    "url": "https://github.com/theluckystrike/mcp-servers",
+    "source": "github",
+    "subfolder": "servers/supplier-statement-check"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/theluckystrike/mcp-servers/releases/download/v0.25.0/supplier-statement-check.mcpb",
+      "version": "0.25.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "MCP_LICENSE_KEY",
+          "description": "Optional offline Pro license key; removes only the three-saved-report cap.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ],
+      "fileSha256": "98784c618a5f7df7c0e3ea4d4528200c10ea43d65eff785fbc1cde55216b306b"
+    }
+  ],
+  "websiteUrl": "https://mcp.zovo.one/s/supplier-statement-check?utm_source=mcp-registry&utm_medium=registry&utm_campaign=vendor-statement-open-items"
+}
