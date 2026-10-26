@@ -2,7 +2,7 @@
 
 <!-- mirror-seo:start -->
 
-**MCP server for supplier statement and vendor statement open-item reconciliation checks against a supplied AP ledger, with exact reference evidence.** Compare supplied supplier statement and AP ledger open items, with complete exact-key evidence.
+**MCP server for supplier statement and vendor statement open-item reconciliation checks against a supplied accounts payable ledger, with exact reference evidence.** Compare supplied supplier statement and AP ledger open items, with complete exact-key evidence.
 
 Works with Claude Desktop, Claude Code, Cursor and any Model Context Protocol client. Runs on your own machine: this one has no hosted endpoint, so install it from the bundle or from source.
 
